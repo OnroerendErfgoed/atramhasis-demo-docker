@@ -80,6 +80,6 @@ RUN apt-get update && apt-get install -y supervisor
 RUN mkdir -p /var/log/supervisor
 
 COPY atramhasis.conf /opt/atramhasis.conf
-EXPOSE 6543
+EXPOSE 6543 3000
 
 CMD supervisord -c /opt/atramhasis.conf
