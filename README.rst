@@ -13,18 +13,20 @@ visit the demo application in your browser on
 http://localhost:6543. A LDF-server is also included
 in the demo and accesible on http://localhost:3000.
 
-```
-$ sudo docker pull atramhasis/demo
-$ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
-```
+.. code::
+
+   $ sudo docker pull atramhasis/demo
+   $ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
+
 
 
 Build and run an image
 ----------------------
 
-This is *not necaserry* if you just want to run the demo in a container. You can pull the image from https://hub.docker.com.
+This is *not necaserry* if you just want to run the demo in a 
+container. You can pull the image from https://hub.docker.com.
 
-```
-$ sudo docker build -t atramhasis/demo .
-$ sudo docker run -p 127.0.0.1:6543:6543 atramhasis/demo
-```
+.. code::
+
+  $ sudo docker build -t atramhasis/demo .
+  $ sudo docker run -p 127.0.0.1:6543:6543 atramhasis/demo
