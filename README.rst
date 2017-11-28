@@ -29,4 +29,4 @@ container. You can pull the image from https://hub.docker.com.
 .. code::
 
   $ sudo docker build -t atramhasis/demo .
-  $ sudo docker run -p 6543:6543 3000:3000 atramhasis/demo
+  $ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
