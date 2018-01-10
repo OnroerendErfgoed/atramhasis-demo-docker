@@ -54,11 +54,10 @@ RUN sudo npm install -g bower
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 # install atramhasis
-RUN pip install --upgrade pip && pip install atramhasis
+RUN pip install --upgrade pip && pip install 'atramhasis==0.6.4'
 
 RUN pcreate -s atramhasis_demo /opt/atramhasis_demo && \
     cd /opt/atramhasis_demo && \
-    sed -i '/app:main/a atramhasis.dump_location = %(here)s/datadumps' development.ini && \
     pip install -r requirements-dev.txt && \
     python setup.py develop && \
     cd atramhasis_demo/static && \
