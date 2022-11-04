@@ -37,3 +37,13 @@ container. You can pull the image from https://hub.docker.com.
 
   $ sudo docker build -t atramhasis/demo .
   $ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
+
+
+ Run Atramhasis with docker-compose
+-----------------------------------
+
+You can create and start Atramhasis with a single command:
+
+.. code::
+
+  $ docker compose up
