@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  vocbench3:
+    image: atramhasis:0.6.4
+    build: .
+    ports:
+    - "6543:6543"
+    - "3000:3000"
