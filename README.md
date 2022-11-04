@@ -1,4 +1,5 @@
-> **_NOTE:_**  This docker documentation is written for a previous version, and no longer works with the current version.
+> **_NOTE:_**  This docker documentation is written for a previous version, and no longer works with the current version. If you want to run Atramhasis outside of Docker and want a more up-to-date version, it's beter to use [the cookiecutter repo](https://github.com/OnroerendErfgoed/atramhasis_demo_cookiecutter).
+
 
 Atramhasis demo docker
 ======================
