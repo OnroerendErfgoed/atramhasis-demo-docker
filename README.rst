@@ -15,16 +15,16 @@ in the demo and accesible on http://localhost:3000.
 
 .. code::
 
-   $ sudo docker pull atramhasis/demo
-   $ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
+   $ docker pull atramhasis/demo
+   $ docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
 
 Or if you wish to run a specific version (starting 
 from atramhasis 0.6.4), you can run:
 
 .. code::
 
-   $ sudo docker pull atramhasis/demo:0.6.4
-   $ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo:0.6.4
+   $ docker pull atramhasis/demo:0.6.4
+   $ docker run -p 6543:6543 -p 3000:3000 atramhasis/demo:0.6.4
 
 
 Build and run an image
@@ -35,8 +35,8 @@ container. You can pull the image from https://hub.docker.com.
 
 .. code::
 
-  $ sudo docker build -t atramhasis/demo .
-  $ sudo docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
+  $ docker build -t atramhasis/demo .
+  $ docker run -p 6543:6543 -p 3000:3000 atramhasis/demo
 
 
  Run Atramhasis with docker-compose
